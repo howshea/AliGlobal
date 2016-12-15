@@ -34,7 +34,9 @@
 ![](https://github.com/howshea/AliGlobal/raw/master/pictures/sql.png)
 
 ## 运行截图
-<img src="https://github.com/howshea/AliGlobal/raw/master/pictures/1.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/2.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/3.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/4.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/5.png" width=200> 
+<img src="https://github.com/howshea/AliGlobal/raw/master/pictures/1.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/2.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/3.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/4.png" width=200>  
 
-<img src="https://github.com/howshea/AliGlobal/raw/master/pictures/6.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/7.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/8.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/9.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/10.png" width=200> 
+<img src="https://github.com/howshea/AliGlobal/raw/master/pictures/5.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/6.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/7.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/8.png" width=200> 
+
+<img src="https://github.com/howshea/AliGlobal/raw/master/pictures/9.png" width=200>  <img src="https://github.com/howshea/AliGlobal/raw/master/pictures/10.png" width=200> 
 

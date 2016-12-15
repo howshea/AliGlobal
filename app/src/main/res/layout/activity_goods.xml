@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hoshea.aliglobal.ui.activity.GoodsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/coord"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginBottom="24dp"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <android.support.v4.view.ViewPager
+                android:fitsSystemWindows="true"
+                android:id="@+id/goods_picture_pager"
+                android:layout_width="match_parent"
+                android:layout_height="320dp">
+
+            </android.support.v4.view.ViewPager>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:navigationIcon="@mipmap/ic_close_white_24dp"
+                android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
+                android:popupTheme="@android:style/ThemeOverlay.Material.Light"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+   <include layout="@layout/goodsdetail"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@color/colorAccentBlueGray"
+        android:src="@mipmap/ic_favorite_white_24dp"
+        app:layout_anchor="@id/coord"
+        app:layout_anchorGravity="end|bottom"/>
+</android.support.design.widget.CoordinatorLayout>

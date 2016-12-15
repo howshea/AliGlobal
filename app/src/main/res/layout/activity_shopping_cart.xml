@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    tools:context="com.hoshea.aliglobal.ui.activity.ShoppingCartActivity">
+
+    <CheckBox
+        android:id="@+id/cart_select_all"
+        android:text="  Select All"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+        <ListView
+            android:id="@+id/cartList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </ListView>
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_pay"
+            android:text="Pay"
+            android:textAllCaps="false"
+            android:background="@color/colorAccentBlueGray"
+            android:layout_alignParentRight="true"
+            android:layout_width="60dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:layout_alignBottom="@id/bt_pay"
+            android:id="@+id/cart_total"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total： ￥"/>
+        <TextView
+            android:id="@+id/cart_total_money"
+            android:layout_alignBottom="@id/bt_pay"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/cart_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="0"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

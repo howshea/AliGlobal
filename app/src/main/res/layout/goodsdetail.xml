@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/goods_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:maxLines="3"
+                android:text="Unlocked Original Apple iPhone 6 Mobile phone 4.7 2GB RAM 16/64GB ROEMS DHL Free Shipping"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/goods_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="US $427.65 - 597.56"
+                android:textColor="@color/colorPrimaryDeepOrange"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="Count:"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/count_add"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/count_subtract"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/count"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/count_add"
+                    android:background="@drawable/count"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/count_subtract"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/count"
+                    android:background="@drawable/count_subtract"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/add_to_cart"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDeepOrange"
+                    android:gravity="center"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="ADD TO CART"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    />
+                <Button
+                    android:id="@+id/add_to_buy"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDeepOrange"
+                    android:gravity="center"
+                    android:text="BUY NOW"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll_goods_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="50dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:text="Description"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccentTeal"
+                android:id="@+id/bt_goods_detail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+            <ImageView
+                android:id="@+id/details_picture"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
+    </android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:minHeight="90dp"
+    android:padding="12dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/order_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#77888888"
+        app:civ_border_width="2dp"/>
+
+    <TextView
+        android:id="@+id/order_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_toRightOf="@id/order_image"
+        android:maxLines="2"
+        android:text="英美游戏王 英美游戏王 英美游戏王 英美游戏王 英美游戏王 英美游戏王"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:id="@+id/order_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/order_image"
+        android:text="订单号： 12345"/>
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/order_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="finish"/>
+</RelativeLayout>

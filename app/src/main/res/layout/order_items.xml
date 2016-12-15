@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+    >
+
+    <ImageView
+        android:id="@+id/goodsImage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_launcher"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/goodsImage"
+        android:layout_toRightOf="@id/goodsImage"
+        android:text="x 1"
+        android:textColor="#666666"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/goodsImage"
+        android:text="￥11.90"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/goodstitle"
+        android:layout_toLeftOf="@id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/goodsImage"
+        android:layout_toRightOf="@id/goodsImage"
+        android:maxLines="2"
+        android:text="jlfffffffdskfsaiofloagnvddddd"
+        android:textSize="18sp"
+        />
+</RelativeLayout>
